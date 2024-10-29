@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     color: #060505;
     background-color: #e4e3dc;
-    background-image: url("Agriculture.jpeg"); /* Replace with your chosen image */
+    background-image: url("harvestimage.jpg"); /* Replace with your chosen image */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -112,16 +112,17 @@ footer {
 }
 .home, .aboutus,.m_tred, .weather, .e_friend {
     cursor: pointer;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .search {
     width: 360px;
     height: 60px;
     text-align: center;
-    margin-left: 450px;
+    margin-left: 800px;
     border-radius: 10px;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .scroll {
@@ -137,14 +138,40 @@ footer {
 .aboutus{
     display: inline;
 }
-.language{
-    color: white;
-    display: block;
-    width: 50px;
-    height: 80px;
-    margin-left: 600px;
-    margin-bottom: 100px ;
+.learn{
+    width:150px;
+    height: 50px;
+    background-color: #070a08;
+    font-size: 20px;
 }
+.foot{
+    font-size: 20px;
+}
+.Language{
+    display:inline-block;
+    margin-top: 18px;
+    margin-left: 800px;
+    width: 130px;
+    height: 50px;
+    background-color: white;
+    color:#060505;
+    font-size: 20px;
+
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 10px solid #333; /* Color of the arrow */
+    margin:  auto;
+    margin-right: 0px;
+}
+.main_para{
+    font:bold;
+    font-size: 50px;
+}
+
 
 
 
