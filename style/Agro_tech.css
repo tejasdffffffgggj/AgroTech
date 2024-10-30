@@ -129,11 +129,18 @@ footer {
     font-size: 20px;
     font-weight: bold;
 }
-
 .Instagram {
     width: 30px;
     border-radius: 10px;
-    margin-left: 900px;
+    margin-left: 1200px;
+    display: inline-block;
+}
+.facebook{
+    display: inline-block;
+    width: 30px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    margin-left: 1100px;
 }
 .aboutus{
     display: inline;
@@ -170,6 +177,9 @@ footer {
 .main_para{
     font:bold;
     font-size: 50px;
+}
+.footlogo{
+    display: inline-block;
 }
 
 
