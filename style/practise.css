@@ -1,3 +1,64 @@
+/* About Us Section */
+.about-us-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-us-section h2 {
+    font-size: 2em;
+    color: #8B0000;
+}
+
+.about-us-section p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.icons-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.icon-card {
+    text-align: center;
+    width: 150px;
+}
+
+.icon-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon-card h4 {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.icon-card p {
+    color: #8B0000;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.stat-item p {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #8B0000;
+}
 /* Reset */
 * {
     margin: 0;
@@ -131,7 +192,6 @@ footer {
 }
 .Instagram {
     width: 30px;
-    height:30px;
     border-radius: 10px;
     margin-left: 1200px;
     display: inline-block;
@@ -139,16 +199,9 @@ footer {
 .facebook{
     display: inline-block;
     width: 30px;
-    border-radius:5px;
+    border-radius: 12px;
     margin-bottom: 10px;
-    margin-left: 10px;
-}
-.twitter{
-    display: inline-block;
-    margin-left: 10px;
-    width: 30px;
-    border-radius:5px;
-    height:30px;
+    margin-left: 1100px;
 }
 .aboutus{
     display: inline;
@@ -161,8 +214,6 @@ footer {
 }
 .foot{
     font-size: 20px;
-    text-align: center;
-    justify-content: center
 }
 .Language{
     display:inline-block;
@@ -189,94 +240,46 @@ footer {
     font-size: 50px;
 }
 .footlogo{
-    display: flex;
-    padding-left: 500px;
+    display: inline-block;
 }
-.About-us-section{
-    text-align: center;
-    padding :40px;
-}
-.head h2{
-    font-size: 50px;
-    color: red;
-}
-.head p{
-    font-size: 20px;
-    color: rgb(95, 0, 0);
-    padding-bottom: 10px;
-}
-.icon-section{
-    display:flex;
-    justify-content: center;
-}
-.icon-card{
-    padding-left: 60px;
-}
-.icon-card img{
-    width:200px;
-}
-.icon-card h3{
-    font-size: 25px;
-    color:rgb(228, 161, 161);
-}
-.icon-card p{
-    font-size: 19px;
-    color:rgb(228, 161, 161)
-}
-.contact{
-    font-size: 20px;
-    padding-right: 1600px;
-}
-.What-we-do{
-    display:flex;
-}
-.section-1{
-    display:flex;
-}
-.section-2{
-    display: flex;
-    
-}
-.part{
-    width:600px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    background-color: rgb(184, 13, 13);
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    height:110px;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.part h5{
-    font-size: 20px;
-    padding-bottom: 5px;
-    padding-top: 10px;
-}
-.ideas{
-    width:600px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    background-color: rgb(184, 13, 13);
-    color: white;
-    border-radius: 10px;
-    margin-left: 20px;
-}
-.ideas h5{
-    font-size: 20px;
-    padding-bottom: 5px;
-}
-.What-we-do{
-    align-items: center;
-}
-.top-head h4{
-    font-size: 50px;
-    color:antiquewhite;
-}
-.top-head p{
-    font-size: 25px;
-    color:#e4e3dc
+/* What We Do Section */
+.what-we-do-section {
+    padding: 40px;
+    text-align: left;
 }
 
+.what-we-do-section .heading h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.what-we-do-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #B00000;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
