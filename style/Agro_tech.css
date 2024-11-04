@@ -224,6 +224,7 @@ footer {
     color:rgb(228, 161, 161)
 }
 .contact{
+    margin-top: 0px;
     font-size: 20px;
     padding-right: 1600px;
 }
@@ -245,7 +246,7 @@ footer {
     color: white;
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 70px;
     height:110px;
     flex-direction: column;
     align-items: flex-start;
