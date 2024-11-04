@@ -271,6 +271,9 @@ footer {
 .What-we-do{
     align-items: center;
 }
+.top-head{
+    margin-left: 20px;
+}
 .top-head h4{
     font-size: 50px;
     color:antiquewhite;
@@ -278,5 +281,8 @@ footer {
 .top-head p{
     font-size: 25px;
     color:#e4e3dc
+}
+.information{
+    margin-left: 30px;
 }
 
