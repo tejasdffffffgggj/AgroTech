@@ -123,6 +123,13 @@ footer {
     border-radius: 10px;
     font-size: 20px;
     margin-top: 10px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .scroll {
@@ -217,11 +224,11 @@ footer {
 }
 .icon-card h3{
     font-size: 25px;
-    color:rgb(228, 161, 161);
+    color:rgb(210, 213, 212);
 }
 .icon-card p{
     font-size: 19px;
-    color:rgb(228, 161, 161)
+    color:rgb(236, 235, 235)
 }
 .contact{
     margin-top: 0px;
@@ -287,3 +294,13 @@ footer {
     margin-left: 30px;
 }
 
+@media (max-width: 768px) {
+    .search{
+        width:85%;
+    }
+}
+@media (max-width: 1008px) {
+    .search{
+        width:95%;
+    }
+}
