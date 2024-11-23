@@ -22,12 +22,45 @@
         <h1>WELCOME TO OUR WEBSITE AGRO TECH &#10024;</h1>
     </section>
     <div class="container">
-        <input class="Name_1" type="text" placeholder="First name">
-        <input class="Name_2" type="text" placeholder="Last name">
-        <input class="password" type="password" placeholder="Password">
-        <input class="Email" type="text" placeholder="Email">
-        <button class="Sign_up">Sign up</button>
+        <form id = "loginForm">
+        <input id ="Firstname" class="Name_1" type="text" placeholder="First name">
+        <input id = "Lastname" class="Name_2" type="text" placeholder="Last name">
+        <input id ="password" class="password" type="password" placeholder="Password">
+        <input id ="Email" class="Email" type="text" placeholder="Email">
+        <button type = "submit" class="Sign_up">Sign up</button>
+        </form>
     </div>
+    <script>
+        // JavaScript to handle login form submission
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
 
+            // Get entered username and password
+            const Firstname = document.getElementById("Firstname").value;
+            const Lastname = document.getElementById("Lastname").value;
+            const password = document.getElementById("password").value;
+            const Email = document.getElementById("Email").value;
+
+            // Set your expected username and password
+            const expectedFirstname = "Teja";
+            const expectedLastname = "Srinivas";
+            const expectedPassword = "vit123";
+            const expectedEmail = "srinivas.23BCE9804@vitapstudent.ac.in";
+
+            // Validate login details
+            if (Firstname === expectedFirstname && Lastname === expectedLastname && password === expectedPassword && Email === expectedEmail) {
+                // If login is successful, redirect to the main website
+                window.location.href = "https://tejasdffffffgggj.github.io/AgroTech/Agro_Tech.html";
+            } else {
+                // If login fails, show an error message
+                alert("Incorrect username or password. Please try again.");
+            }
+        });
+    </script>
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
